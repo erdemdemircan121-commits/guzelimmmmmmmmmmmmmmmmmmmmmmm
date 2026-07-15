@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GÜZELİMMM ❤️</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#ff4d88,#ff9fc4);
+color:white;
+text-align:center;
+overflow-x:hidden;
+}
+
+header{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+padding:20px;
+}
+
+h1{
+font-size:48px;
+animation:buyu 2s infinite alternate;
+}
+
+@keyframes buyu{
+from{transform:scale(1);}
+to{transform:scale(1.08);}
+}
+
+p{
+font-size:22px;
+line-height:1.8;
+margin-top:20px;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+font-size:22px;
+background:white;
+color:#ff4d88;
+border:none;
+border-radius:40px;
+cursor:pointer;
+font-weight:bold;
+}
+
+section{
+display:none;
+padding:30px;
+}
+
+img{
+width:90%;
+max-width:340px;
+border-radius:20px;
+margin:15px;
+box-shadow:0 0 20px rgba(255,255,255,.5);
+}
+
+.heart{
+position:fixed;
+top:-50px;
+font-size:25px;
+animation:fall linear infinite;
+}
+
+@keyframes fall{
+0%{
+transform:translateY(-100px);
+opacity:1;
+}
+
+100%{
+transform:translateY(120vh);
+opacity:0;
+}
+}
+
+#counter{
+font-size:28px;
+margin:30px;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>❤️ GÜZELİMMM ❤️</h1>
+
+<p>
+
+SANA KÜÇÜK BİR SÜRPRİZ HAZIRLADIM ❤️<br><br>
+
+BUTONA BAS VE BENİM KALBİMİ GÖR...
+
+</p>
+
+<button onclick="basla()">AÇ ❤️</button>
+
+</header>
+
+<section id="icerik"><h2 style="font-size:38px;">💖 SENİ ÇOOOKKK SEVİYORUMMM 💖</h2>
+
+<div id="counter"></div>
+
+<p>
+
+İYİ Kİ HAYATIMDASIN GÜZELİMMM ❤️<br><br>
+
+SEN BENİM EN GÜZEL ŞANSIMSINN 🌹<br>
+HER GÜN SANA YENİDEN ÂŞIK OLUYORUMMM ❤️<br>
+GÜLÜŞÜN BENİM DÜNYAMI AYDINLATIYORR 🥹❤️<br>
+YANINDA KENDİMİ ÇOK MUTLU HİSSEDİYORUMMM ❤️<br>
+SENİNLE GEÇEN HER ANI ÇOK SEVİYORUMM ❤️<br><br>
+
+💌 SONSUZA KADAR ELİNİ TUTMAK İSTİYORUMM 💌
+
+</p>
+
+<h2 style="margin<h2 style="margin-top:40px;">📸 BİZİM ANILARIMIZ ❤️</h2>
+
+<p id="counter"></p>
+
+<p style="font-size:22px;line-height:2;margin-top:30px;">
+
+İYİ Kİ HAYATIMDASIN GÜZELİMMM ❤️<br><br>
+
+SEN BENİM EN GÜZEL ŞANSIMSINN 🌹<br>
+
+HER GÜN SENİ DAHA ÇOK SEVİYORUMMM ❤️<br>
+
+SEN GÜLÜNCE DÜNYAM GÜZELLEŞİYORRR 🥹❤️<br>
+
+SENİNLE GEÇİRDİĞİM HER AN BENİM İÇİN ÇOK DEĞERLİ ❤️<br>
+
+SENİ HİÇ BIRAKMAYACAĞIMMM ❤️<br>
+
+SONSUZA KADAR SEN VE BENN ❤️
+
+</p>
+
+<img src="foto1.jpg">
+<img src="foto2.jpg">
+<img src="foto3.jpg">
+<img src="foto4.jpg">
+<img src="foto5.jpg">
+
+<br><<br><br>
+
+<h2>📸 BİZİM ANILARIMIZ ❤️</h2>
+
+<div class="gallery">
+
+<img src="foto1.jpg">
+<img src="foto2.jpg">
+<img src="foto3.jpg">
+<img src="foto4.jpg">
+<img src="foto5.jpg">
+
+</div>
+
+<br>
+
+<audio id="muzik" controls autoplay loop>
+<source src="muzik.mp3" type="audio/mpeg">
+Tarayıcın müziği desteklemiyor.
+</audio>
+
+<br><br>
+
+<button onclick="surpriz()">💖 SON SÜRPRİZ 💖</button>
+
+<div id="son" style="display:none; padding:30px;">
+
+<h1>❤️ GÜZELİMMM ❤️</h1>
+
+<p style="font-size:24px;line-height:1.8;">
+
+SEN BENİM EN GÜZEL DUALARIMSIN 🌹<br><br>
+
+SENİNLE GÜLMEYİ,<br>
+SENİNLE HAYAL KURMAYI,<br>
+SENİNLE YAŞLANMAYI İSTİYORUM ❤️<br><br>
+
+İYİ Kİ VARSIN GÜZELİMMM...<br><br>
+
+💍 SONSUZA KADAR SENİ ÇOOOKKK SEVECEĞİMMM ❤️
+
+</p>
+
+</div>
+
+</section>
+
+<script>
+
+function basla(){
+document.querySelector("header").style.display="none";
+document.getElementById("icerik").style.display="block";
+
+var muzik=document.getElementById("muzik");
+if(muzik){
+muzik.play().catch(()=>{});
+}
+}
+
+function surpriz(){
+document.getElementById("son").style.display="block";
+window.scrollTo({
+top:document.body.scrollHeight,
+behavior:"smooth"
+});
+}
+
+// ❤️ Kalp yağmuru
+setInterval(function(){
+
+let kalp=document.createElement("div");
+
+kalp.className="heart";
+
+kalp.innerHTML="❤️";
+
+kalp.style.left=Math.random()*100+"vw";
+kalp.style.animationDuration=(3+Math.random()*4)+"s";
+
+document.body.appendChild(kalp);
+
+setTimeout(function(){
+kalp.remove();
+},7000);
+
+},300);
+
+// ⏳ Yaklaşık 45 gün
+const baslangic = new Date();
+baslangic.setDate(baslangic.getDate()-45);
+
+function sayac(){
+
+let simdi=new Date();
+let fark=simdi-baslangic;
+
+let gun=Math.floor(fark/(1000*60*60*24));
+
+document.getElementById("counter").innerHTML =
+"❤️ TANIŞALI " + gun + " GÜN OLDU ❤️";
+
+}
+
+sayac();
+setInterval(sayac,60000);
+
+</script>
+
+</body>
+</html>
